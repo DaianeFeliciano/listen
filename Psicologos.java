@@ -1,6 +1,5 @@
 package ConsultasPsicologia;
 
-
 public class Psicologos extends EscolhaTipodeAtendimento {
 	
 	EscolhaTipodeAtendimento tipoatendimento = new EscolhaTipodeAtendimento();
