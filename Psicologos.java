@@ -1,7 +1,10 @@
 package ConsultasPsicologia;
 
+<<<<<<< HEAD
 import java.util.Scanner;
 
+=======
+>>>>>>> 47ee24971e629cd3decb9088736402d427cc3f05
 public class Psicologos extends EscolhaTipodeAtendimento {
 	
 	EscolhaTipodeAtendimento tipoatendimento = new EscolhaTipodeAtendimento();
