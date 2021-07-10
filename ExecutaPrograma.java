@@ -14,6 +14,9 @@ public class ExecutaPrograma {
 		 	ConsultaValor escolhavalor = new ConsultaValor();
 		 	EscolhaValorConsulta escolhavalorconsulta = new EscolhaValorConsulta();
 		 	Paciente paciente1  = new Paciente(); 
+		 	HorariosDisponivel horariodisponivel = new HorariosDisponivel();
+		 	ConsultaHorarios consultarhorario = new ConsultaHorarios();
+		 	
 		    int tecla = 0;
            System.out.println("=======================================================================");
            System.out.println("                     *-* Bem vindos(as) ao xxxxx *-*                   ");
@@ -31,7 +34,8 @@ public class ExecutaPrograma {
                    	escolhatipoatendimento.escolhaTipoAtendimentoPaciente(leitor);
                    	escolhavalor.listaPreco();
                    	escolhavalorconsulta.escolhavalorConsulta(leitor);
-                   	
+                   	horariodisponivel.Horarios();
+                   	consultarhorario.escolhaConsultaHorario(leitor);
     
                        break;
 
