@@ -1,8 +1,10 @@
 package ConsultasPsicologia;
 
 
-
-public class TipodeAtendimento {
+public class TipodeAtendimento extends Paciente {
+	
+	Paciente paciente1 = new Paciente();
+	
 	
 	private String[] tipoAtendimento = {"Google Meet",
 			"Discord", "Whatsapp"};  

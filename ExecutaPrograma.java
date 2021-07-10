@@ -8,12 +8,13 @@ public class ExecutaPrograma {
 		
 		try (Scanner leitor = new Scanner(System.in)) {
 			 
-		 	Psicologos psicologos = new Psicologos();
+		 	//Psicologos psicologos = new Psicologos();
 		 	TipodeAtendimento tipoatendimento = new TipodeAtendimento();
 		 	EscolhaTipodeAtendimento escolhatipoatendimento = new EscolhaTipodeAtendimento();
 		 	ConsultaValor escolhavalor = new ConsultaValor();
 		 	EscolhaValorConsulta escolhavalorconsulta = new EscolhaValorConsulta();
-           int tecla = 0;
+		 	Paciente paciente1  = new Paciente(); 
+		    int tecla = 0;
            System.out.println("=======================================================================");
            System.out.println("                     *-* Bem vindos(as) ao xxxxx *-*                   ");
            System.out.println("=======================================================================");
@@ -25,28 +26,18 @@ public class ExecutaPrograma {
                switch (tecla) {
 
                    case 1:
-                   	tipoatendimento.listaTiposAtedimentos();
+                	paciente1.contato(leitor);
+                	tipoatendimento.listaTiposAtedimentos();
                    	escolhatipoatendimento.escolhaTipoAtendimentoPaciente(leitor);
-                   	psicologos.listaPsicologos();
                    	escolhavalor.listaPreco();
                    	escolhavalorconsulta.escolhavalorConsulta(leitor);
                    	
-                   
-                   	
-                   	//if(tecla == 0) {
-                   		
-                   	///	break;
-                   		
-                   ///	} else {
-                   		
-                   		
-                   		
-                   //	}
-                   	
+    
                        break;
 
 
                    case 2:
+                	   System.out.println("Obrigado, volte sempre!");
                        System.exit(0);
                        break;
 

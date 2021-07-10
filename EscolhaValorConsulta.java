@@ -5,27 +5,25 @@ import java.util.Scanner;
 public class EscolhaValorConsulta extends ConsultaValor {
 	
 	ConsultaValor consultavalor = new ConsultaValor();
+	Psicologos psicologos = new Psicologos();	
 	
 	
-	
-	int tecla = 0;
+	int opcaoValor = 0;
 	
 	public void escolhavalorConsulta(Scanner leitor) {
 		
 			
 			System.out.println("\nQual faixa de preço você procura? ");
-			tecla = leitor.nextInt();
+			opcaoValor = leitor.nextInt();
 			
 			System.out.println("Você escolheu o valor " +
-			consultavalor.getPrecoConsulta()[tecla-1]);
+			consultavalor.getPrecoConsulta()[opcaoValor-1]);
+			
+			double valorEscolhido = consultavalor.getPrecoConsulta()[opcaoValor-1];
+			psicologos.listaPsicologos(opcaoValor,valorEscolhido);
 		
-			
-			
+				
 			
 			}
 	
-	
-	
-	
-
 }
