@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class ConsultaHorarios {
 
-ColsultaHorario horarios = new ColsultaHorario();
-	
 	static int tecla = 0;
 	
 public void escolhaConsultaHorario(Scanner leitor) {
