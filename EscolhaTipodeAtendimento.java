@@ -4,22 +4,73 @@ import java.util.Scanner;
 
 public class EscolhaTipodeAtendimento extends TipodeAtendimento {
 	
+	
+
 	TipodeAtendimento tiposatendimentos = new TipodeAtendimento();
 	
-	int tecla = 0;
+	int plataforma = 0;
+	private String plataformaEscolhida;
 	
+	
+	
+public TipodeAtendimento getTiposatendimentos() {
+		return tiposatendimentos;
+	}
+
+
+
+	public void setTiposatendimentos(TipodeAtendimento tiposatendimentos) {
+		this.tiposatendimentos = tiposatendimentos;
+	}
+
+
+
+	public int getPlataforma() {
+		return plataforma;
+	}
+
+
+
+	public void setPlataforma(int plataforma) {
+		this.plataforma = plataforma;
+	}
+
+
+
 public void escolhaTipoAtendimentoPaciente(Scanner leitor) {
 	
 		
 		System.out.println("\nQual plataforma deseja realizar sua consulta? ");
-		tecla = leitor.nextInt();
+		plataforma = leitor.nextInt();
 		
-		System.out.println("Você escolheu a plataforma " + 
-		tiposatendimentos.getTipoAtendimento()[tecla-1]);
-	
+		if (plataforma > 3 || plataforma < 1) {
+			
+			System.out.println("Por favor, escolha uma das opções disponíveis na lista!");
+			escolhaTipoAtendimentoPaciente(leitor);
+		}
+		else {
+			
+			plataformaEscolhida = tiposatendimentos.getTipoAtendimento()[plataforma-1];
+			System.out.printf("\n ** Você escolheu a plataforma %s **",
+			tiposatendimentos.getTipoAtendimento()[plataforma-1]);
+		
+		
+		}
 		
 		
 		
 		}
+
+
+
+public String getPlataformaEscolhida() {
+	return plataformaEscolhida;
+}
+
+
+
+public void setPlataformaEscolhida(String plataformaEscolhida) {
+	this.plataformaEscolhida = plataformaEscolhida;
+}
 
 }

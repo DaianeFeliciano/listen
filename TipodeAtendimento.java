@@ -1,7 +1,7 @@
 package ConsultasPsicologia;
 
 
-public class TipodeAtendimento extends Paciente {
+public class TipodeAtendimento  {
 	
 	Paciente paciente1 = new Paciente();
 	
