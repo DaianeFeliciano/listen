@@ -6,7 +6,7 @@ public class PagamentoConsulta {
 	
 	 
 	
-	 String opcoespag [] = {"pix", "transferênça", "depósito"};
+	 String opcoespag [] = {"Pix", "Transferencia", "Depósito", "Internet Banking", "MercadoPago"};
 	
 
 
@@ -23,7 +23,7 @@ public void opcaopagamento() {
 		for(int i = 0; i < opcoespag.length ; i++) {
 			
 			
-			System.out.printf("\n %d %s%n ", i+1, opcoespag[i]);
+			System.out.printf("\n %d - %s%n ", i+1, opcoespag[i]);
 		}
 		
 }

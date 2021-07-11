@@ -21,7 +21,7 @@ public class HorariosDisponivel {
 		{
 			
 			
-			System.out.printf(" \n %d %s%n ", i+1, consultaHorario[i]);
+			System.out.printf(" \n %d - %s%n ", i+1, consultaHorario[i]);
 		}
 	}
 }

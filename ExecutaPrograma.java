@@ -21,10 +21,10 @@ public class ExecutaPrograma {
 		 	ConfirPagam confirmacaopag = new ConfirPagam();
 		 	
 		    int tecla = 0;
-           System.out.println("=======================================================================");
-           System.out.println("                     *-* Bem vindos(as) ao xxxxx *-*                   ");
-           System.out.println("=======================================================================");
-           String menu = "\n\n<><><> Venha cuidar da sua saúde! <><><>\n\n1 Atendimento Online - Psicologia\n2 Sair\nItem:";
+           System.out.println("===================================================================================");
+           System.out.println("                           *-* Bem vindos(as) à Listen *-*                         ");
+           System.out.println("===================================================================================");
+           String menu = "\n\n<> <> <> <> <> <> <>     Não existe saúde, sem saúde mental     <> <> <> <> <> <> <>\n\n1 - Atendimento Online - Psicologia\n2 - Sair\nItem:";
 
            do {
                System.out.println(menu);

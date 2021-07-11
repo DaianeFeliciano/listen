@@ -7,7 +7,7 @@ public class TipodeAtendimento  {
 	
 	
 	private String[] tipoAtendimento = {"Google Meet",
-			"Discord", "Whatsapp"};  
+			"Discord", "Zoom"};  
 	
 	
 	public String[] getTipoAtendimento() {
