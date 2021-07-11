@@ -35,7 +35,7 @@ public class Psicologos extends ConsultaValor  {
 		
 	}
 
-System.out.println(psicologoOpcoes);
+//System.out.println(psicologoOpcoes);
 
 	
 	marcarConsultaProfissional(valorEscolhido, psicologoOpcoes);
@@ -52,7 +52,7 @@ System.out.println(psicologoOpcoes);
 		
 		for(int i = 0; i < psicologoOpcoes.size(); i++ ) {
 			int cont = psicologoOpcoes.size();
-			System.out.println(cont);
+			//System.out.println(cont);
 			if(marcarConsulta == psicologoOpcoes.get(i) ) {
 				
 				System.out.printf("\n** Você escolheu: %s%n" 
@@ -62,11 +62,11 @@ System.out.println(psicologoOpcoes);
 				
 			}else if(i == cont-1) {
 					System.out.println("Não conseguimos localizar profissionais com essa opção!"
-							+ "por favor, escolha uma das opções disponíveis!");
+							+ "na faixa preço escolhida! Por favor, escolha uma das opções disponíveis!");
 					
 					marcarConsultaProfissional(valorEscolhido,  psicologoOpcoes);
 				
-				//marcarConsultaProfissional(valorEscolhido);
+	
 				} 
 			
 			
