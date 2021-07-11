@@ -17,6 +17,8 @@ public class ExecutaPrograma {
 		 	HorariosDisponivel horariodisponivel = new HorariosDisponivel();
 		 	ConsultaHorarios consultarhorario = new ConsultaHorarios();
 		 	EnviarConfirmacaoEmail enviaremail = new EnviarConfirmacaoEmail();
+		 	PagamentoConsulta pagamentoconsulta = new PagamentoConsulta();
+		 	ConfirPagam confirmacaopag = new ConfirPagam();
 		 	
 		    int tecla = 0;
            System.out.println("=======================================================================");
@@ -37,6 +39,8 @@ public class ExecutaPrograma {
                    	escolhavalorconsulta.escolhavalorConsulta(leitor);
                    	horariodisponivel.Horarios();
                    	consultarhorario.escolhaConsultaHorario(leitor);
+                   	pagamentoconsulta.opcaopagamento();
+                   	confirmacaopag.corfirmeOpcao(leitor);
                    	enviaremail.informacoesdaConsulta();
                    	enviaremail.nomePaciente();
                 	System.out.printf("%s", paciente1.getNome());
