@@ -8,7 +8,7 @@ public class EscolhaTipodeAtendimento extends TipodeAtendimento {
 
 	TipodeAtendimento tiposatendimentos = new TipodeAtendimento();
 	
-	int plataforma = 0;
+	private int plataforma = 0;
 	private String plataformaEscolhida;
 	
 	

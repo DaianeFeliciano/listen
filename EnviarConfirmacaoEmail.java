@@ -47,7 +47,14 @@ public class EnviarConfirmacaoEmail  {
 
 	public void informacoesEmail( ) {
 		
-		System.out.println("As informações foram enviadas para o seu e-mail: ");
+		System.out.println("\nAs informações sobre "
+				+ "o pagamento e consulta foram enviadas para o seu e-mail: ");
+		
+	}
+	
+	public void informacoesPagamento( ) {
+		
+		System.out.print("A forma de pagamento será ");
 		
 	}
 	

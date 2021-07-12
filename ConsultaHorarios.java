@@ -8,10 +8,7 @@ public class ConsultaHorarios extends HorariosDisponivel {
 	 private String consultaEscolhida;
 	 
 	 HorariosDisponivel horariosdisponivel = new HorariosDisponivel();
-	 TipodeAtendimento tiposatendimentos = new TipodeAtendimento();
-	 EscolhaTipodeAtendimento escolhaatendimento = new EscolhaTipodeAtendimento();
-	 Psicologos escolhapsicologo = new Psicologos();
-	 
+
 	
 public void escolhaConsultaHorario(Scanner leitor) {
 	

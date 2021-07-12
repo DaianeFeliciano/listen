@@ -8,7 +8,7 @@ public class ExecutaPrograma {
 		
 		try (Scanner leitor = new Scanner(System.in)) {
 			 
-		 	Psicologos psicologos = new Psicologos();
+		 	
 		 	TipodeAtendimento tipoatendimento = new TipodeAtendimento();
 		 	EscolhaTipodeAtendimento escolhatipoatendimento = new EscolhaTipodeAtendimento();
 		 	ConsultaValor escolhavalor = new ConsultaValor();
@@ -51,10 +51,11 @@ public class ExecutaPrograma {
                    	enviaremail.informacoesdaConsultaPsicologo();
                    	enviaremail.informacoesdoValor();
                    	System.out.printf( "%.2f%n", escolhavalorconsulta.getValorEscolhido());
+                   	enviaremail.informacoesPagamento();
+                   	System.out.printf("%s", confirmacaopag.getPagamentoEscolhido());
                    	enviaremail.informacoesEmail();
                    	System.out.printf("%s", paciente1.getEmail(), "\n\n");
-                   	//System.out.printf("%s");
-                   	//psicologos.confirmadoPsico();
+                   	
     
                        break;
 
