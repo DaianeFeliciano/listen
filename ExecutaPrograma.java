@@ -70,7 +70,7 @@ public class ExecutaPrograma {
 
 
                    case 2:
-                	   System.out.println("Obrigada, volte sempre!");
+                	   System.out.println("Obrigada, volte sempre! ;)");
                        System.exit(0);
                        break;
 
