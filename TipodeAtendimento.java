@@ -28,7 +28,7 @@ public class TipodeAtendimento  {
 		{
 			
 			
-			System.out.printf(" \n %d %s%n ", i+1, tipoAtendimento[i]);
+			System.out.printf(" \n %d - %s%n ", i+1, tipoAtendimento[i]);
 			
 			
 		}

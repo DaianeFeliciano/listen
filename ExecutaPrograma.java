@@ -22,7 +22,7 @@ public class ExecutaPrograma {
 		 	
 		    int tecla = 0;
            System.out.println("===================================================================================");
-           System.out.println("                           *-* Bem vindos(as) à Listen *-*                         ");
+           System.out.println("                           *-* Bem vindes à Listen *-*                             ");
            System.out.println("===================================================================================");
            String menu = "\n\n<> <> <> <> <> <> <>     Não existe saúde, sem saúde mental     <> <> <> <> <> <> <>\n\n1 - Atendimento Online - Psicologia\n2 - Sair\nItem:";
 

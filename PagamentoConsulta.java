@@ -19,7 +19,7 @@ public class PagamentoConsulta {
 	}
 public void opcaopagamento() {
 		
-		System.out.println("\n Veja aqui as nossas formas de pagamento: ");
+		System.out.println("\n Nossas formas de pagamento são: ");
 		for(int i = 0; i < opcoespag.length ; i++) {
 			
 			

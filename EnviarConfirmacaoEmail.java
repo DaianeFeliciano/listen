@@ -5,7 +5,7 @@ public class EnviarConfirmacaoEmail  {
 	
 	public void informacoesdaConsulta() {
 		
-		System.out.println("\n**** Informações sobre a sua  consulta ****");
+		System.out.println("\n**** Informações sobre a sua consulta ****");
 		
 
 		
@@ -19,7 +19,7 @@ public class EnviarConfirmacaoEmail  {
 	}
 	
 	public void informacoesdaConsultaTipoAtendimento() {
-		System.out.print("\nSua consulta será realizada no ");
+		System.out.print("\nSua consulta será realizda pela plataforma  ");
 		
 		
 	}
@@ -41,7 +41,7 @@ public class EnviarConfirmacaoEmail  {
 		
 
 	
-		System.out.print("Preço da consulta R$ " );
+		System.out.print("Preço da consulta: R$ " );
 		
 	}
 
@@ -54,7 +54,7 @@ public class EnviarConfirmacaoEmail  {
 	
 	public void informacoesPagamento( ) {
 		
-		System.out.print("A forma de pagamento será ");
+		System.out.print("Forma de pagamento:  ");
 		
 	}
 	
